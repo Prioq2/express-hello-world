@@ -15,7 +15,7 @@ export class InteractionCreate extends BaseEvent {
             if (cmd) {
                 const context = new CommandContext(interaction);
                 await interaction.deferReply();
-                await cmd.execute(context);
+                await cmd.execute(context, this.client);
             }
         }
     }
