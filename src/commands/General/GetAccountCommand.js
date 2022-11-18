@@ -10,32 +10,72 @@ export class GetAccountCommand extends BaseCommand {
   constructor(client) {
     super(client, {
       slash: {
-        name: "getsmurf",
-        description: "Gets you a smurf from the database.",
+        name: "getaccount",
+        description: "Displays all the command available",
         options: [ {
           required: true,
           type: "STRING",
           name: "rank",
           description: "The rank you want.",
           choices: [{
-              name: 'Bronze',
-              value: 'Bronze'
+              name: 'Bronze I',
+              value: 'Bronze I'
             },
             {
-              name: 'Silver',
-              value: 'Silver'
+              name: 'Bronze II',
+              value: 'Bronze II'
             },
             {
-              name: 'Gold',
-              value: 'Gold'
+              name: 'Bronze II',
+              value: 'Bronze II'
             },
             {
-              name: 'Platinum',
-              value: 'Platinum'
+              name: 'Silver I',
+              value: 'Silver I'
             },
             {
-              name: 'Diamond',
-              value: 'Diamond'
+              name: 'Silver II',
+              value: 'Silver II'
+            },
+            {
+              name: 'Silver III',
+              value: 'Silver III'
+            },
+            {
+              name: 'Gold I',
+              value: 'Gold I'
+            },
+            {
+              name: 'Gold II',
+              value: 'Gold II'
+            },
+            {
+              name: 'Gold III',
+              value: 'Gold III'
+            },
+            {
+              name: 'Platinum I',
+              value: 'Platinum I'
+            },
+            {
+              name: 'Platinum II',
+              value: 'Platinum II'
+            },
+            {
+              name: 'Platinum III',
+              value: 'Platinum III'
+            },
+            {
+              name: 'Diamond I',
+              value: 'Diamond I'
+            },
+            {
+              name: 'Diamond II',
+              value: 'Diamond II'
+            },
+            {
+              name: 'Diamond III',
+              value: 'Diamond III'
             },
             {
               name: 'Champion I',
