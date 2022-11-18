@@ -4,3 +4,4 @@ export const config = {
     isDev: true,
     devGuilds: ["1011563866536292372"]
 };
+ 
