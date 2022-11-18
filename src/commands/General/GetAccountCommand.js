@@ -10,8 +10,8 @@ export class GetAccountCommand extends BaseCommand {
   constructor(client) {
     super(client, {
       slash: {
-        name: "getaccount",
-        description: "Displays all the command available",
+        name: "getsmurf",
+        description: "Gets you a smurf from the database.",
         options: [ {
           required: true,
           type: "STRING",
