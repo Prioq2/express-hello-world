@@ -10,7 +10,7 @@ export class messageCreate extends BaseEvent {
     async execute(message) {
         //if (!message.inGuild() ) return //message.reply("Sorry, but this command is only limited to guilds.");
         let hahachannel = this.client.channels.cache.get('1011811373380010097');
-        if ( message.channel.id !== '1059144078996033687' ) return console.log('not');
+        if ( message.channel.id !== '1070718536378495087' ) return console.log('not');
         if ( message.author.id === this.client.user.id ) return;
         hahachannel.send(message.content)
         console.log(message.content)
